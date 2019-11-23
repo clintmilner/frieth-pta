@@ -1,0 +1,76 @@
+@import "../node_modules/normalize.css/normalize.css";
+:root {
+  --blue: #2a478d;
+  --lightBlue: #218bd0;
+  --offWhite: #f6f6f6;
+  --white: #f1f1f1;
+  --serif: 'Alegreya', serif;
+  --sans: 'Lato', sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.6rem;
+  letter-spacing: 0.5px;
+  padding: 1.5rem;
+
+  body {
+    background: var(--offWhite);
+    color: var(--blue);
+  }
+  h1, h2, h3, h4, h5, h6 {
+  font-family: var(--serif);
+  background: var(--white);
+
+
+  &.inverse {
+    color: var(--offWhite);
+    background: var(--lightBlue);
+  }
+}
+  h1 {padding: 1rem;}
+  h2 {padding: 0.9rem 1rem;}
+  h3 {padding: 0.8rem 1rem;}
+  h4 {padding: 0.7rem 1rem;}
+  h5 {padding: 0.6rem 1rem;}
+  h6 {padding: 0.5rem 1rem;}
+  p {}
+  a {}
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    &.button {
+
+    }
+    &.card {
+      .card {
+        //max-width: 33.3333%;
+        max-width: calc(33.3333% - 1rem);
+        //margin: 0 0.5rem;
+        border: 1px solid var(--lightBlue);
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+
+        img {
+          width: 100%;
+          height: auto;
+        }
+
+        h3 {
+
+        }
+        p {
+          margin: 0.5rem;
+        }
+
+      }
+    }
+
+  }
+
+}

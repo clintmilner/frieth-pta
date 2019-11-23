@@ -1,0 +1,23 @@
+{
+  "name": "frieth-pta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clintmilner/frieth-pta.git"
+  },
+  "author": "Clint Milner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clintmilner/frieth-pta/issues"
+  },
+  "homepage": "https://github.com/clintmilner/frieth-pta#readme",
+  "dependencies": {
+    "less": "^3.10.3",
+    "normalize.less": "^1.0.0"
+  }
+}

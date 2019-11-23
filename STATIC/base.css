@@ -1,0 +1,78 @@
+@import "../node_modules/normalize.css/normalize.css";
+:root {
+  --blue: #2a478d;
+  --lightBlue: #218bd0;
+  --offWhite: #f6f6f6;
+  --white: #f1f1f1;
+  --serif: 'Alegreya', serif;
+  --sans: 'Lato', sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.6rem;
+  letter-spacing: 0.5px;
+  padding: 1.5rem;
+}
+html body {
+  background: var(--offWhite);
+  color: var(--blue);
+}
+html h1,
+html h2,
+html h3,
+html h4,
+html h5,
+html h6 {
+  font-family: var(--serif);
+  background: var(--white);
+}
+html h1.inverse,
+html h2.inverse,
+html h3.inverse,
+html h4.inverse,
+html h5.inverse,
+html h6.inverse {
+  color: var(--offWhite);
+  background: var(--lightBlue);
+}
+html h1 {
+  padding: 1rem;
+}
+html h2 {
+  padding: 0.9rem 1rem;
+}
+html h3 {
+  padding: 0.8rem 1rem;
+}
+html h4 {
+  padding: 0.7rem 1rem;
+}
+html h5 {
+  padding: 0.6rem 1rem;
+}
+html h6 {
+  padding: 0.5rem 1rem;
+}
+html .container {
+  display: flex;
+  justify-content: space-between;
+}
+html .container.card .card {
+  max-width: calc(33.3333% - 1rem);
+  border: 1px solid var(--lightBlue);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+html .container.card .card img {
+  width: 100%;
+  height: auto;
+}
+html .container.card .card p {
+  margin: 0.5rem;
+}
+/*# sourceMappingURL=base.css.map */
